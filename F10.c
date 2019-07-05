@@ -61,7 +61,7 @@ void verify(int r){
         printQuestion();
 
     }else{
-        badAsker;
+        badAsker();
         printQuestion();
     }
 }

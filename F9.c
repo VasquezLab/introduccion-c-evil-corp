@@ -36,7 +36,6 @@ void printQuestion(){
     printf("¿Cuánto es %d veces %d?\n", n1, n2);
     scanf("%d", &ask);
 
-    
     char c = getchar();
 
     if(isdigit(c))
@@ -46,6 +45,8 @@ void printQuestion(){
     {
         close();
     }
+
+    verify(ask);
 }
 
 
